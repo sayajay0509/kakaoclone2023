@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Piglet - Kokoa Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="clock">00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Piglet</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Sunday, Sepetember 24, 2023</div>
+
+      <div class="message-row">
+        <img
+          src="https://image.cine21.com/resize/cine21/still/2005/0126/M0020067_0009105[S800,800].JPG"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Piglet</span>
+          <div class="message__info">
+            <span class="message__bubble">I had a fun last night!</span>
+            <span class="message__time">20:48</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Me too, Have a good night!</span>
+            <span class="message__time">20:51</span>
+          </div>
+        </div>
+      </div>
+      <div class="chat__timestamp">Monday, Sepetember 25, 2023</div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >I'm looking for the honey, let me know when you find it</span
+            >
+            <span></span>
+            <span class="message__time">13:22</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img
+          src="https://image.cine21.com/resize/cine21/still/2005/0126/M0020067_0009105[S800,800].JPG"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Piglet</span>
+          <div class="message__info">
+            <span class="message__bubble">I found the honey</span>
+            <span class="message__time">18:21</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span> Please adjust the screen! </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/e750ea059d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>

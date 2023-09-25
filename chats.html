@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span id="clock">00:00</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chatpiglet.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://image.cine21.com/resize/cine21/still/2005/0126/M0020067_0009105[S800,800].JPG"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Piglet</h4>
+              <h6 class="user-component__subtitle">I found the honey</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">20:48</span>
+          </div>
+        </div>
+      </a>
+      <a href="chateeyore.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://pbs.twimg.com/media/EnA6vP6UwAEiY0r?format=jpg&name=900x900"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Eeyore</h4>
+              <h6 class="user-component__subtitle">Where are you?</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">19:13</span>
+          </div>
+        </div>
+      </a>
+      <a href="chattiger.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://www.meme-arsenal.com/memes/51accb13541f63629d39678b5489eb07.jpg"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Tiger</h4>
+              <h6 class="user-component__subtitle">
+                I ate your honey last day
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">11:22</span>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="nav__dot"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <span> Please adjust the screen! </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/e750ea059d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/clock.js"></script>
+  </body>
+</html>
